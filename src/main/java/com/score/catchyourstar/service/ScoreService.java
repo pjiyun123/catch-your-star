@@ -16,11 +16,11 @@ public class ScoreService {
     // 점수 등록
     public Score addScore(Score score) {
         Score newScore = score.builder()
-                .first(score.getFirst())
-                .second(score.getSecond())
-                .third(score.getThird())
-                .fourth(score.getFourth())
-                .fifth(score.getFifth())
+                .firstscore(score.getFirstscore())
+                .secondscore(score.getSecondscore())
+                .thirdscore(score.getThirdscore())
+                .fourthscore(score.getFourthscore())
+                .fifthscore(score.getFifthscore())
                 .build();
 
         scoreRepo.save(newScore);

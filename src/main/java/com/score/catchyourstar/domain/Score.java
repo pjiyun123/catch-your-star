@@ -14,21 +14,21 @@ public class Score {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long scoreId;
+    private Long id;
 
     @Column(nullable = false)
-    private Long first;
+    private Long firstscore;
 
     @Column(nullable = true)
-    private Long second;
+    private Long secondscore;
 
     @Column(nullable = true)
-    private Long third;
+    private Long thirdscore;
 
     @Column(nullable = true)
-    private Long fourth;
+    private Long fourthscore;
 
     @Column(nullable = true)
-    private Long fifth;
+    private Long fifthscore;
 
 }
